@@ -21,7 +21,8 @@ validated) → **Gold** (joined, business-ready) → **Dashboard**
 Built using the **medallion architecture** pattern on Databricks Unity 
 Catalog, orchestrated via Databricks Workflows.
 
-![Dashboard Screenshot](doc/Dashboard-Global Development Insights.pdf)
+[Flowchart see here](https://github.com/snehal29/global-development-lakehouse/blob/main/doc/architecture_flowchart.png)
+
 
 ## Tech Stack
 
