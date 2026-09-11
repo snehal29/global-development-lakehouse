@@ -86,11 +86,7 @@ notebooks/
 ## Orchestration
 
 A Databricks Job [global_development_pipeline_job](https://github.com/snehal29/global-development-lakehouse/blob/main/doc/workflow_screenshot.png) chains all stages 
-with explicit task dependencies:
-*bronze_ingestion → silver_transformation → gold_aggregation → dashboard_refresh*
-
-
-
+with explicit task dependencies:                                                                                                                                           *bronze_ingestion → silver_transformation → gold_aggregation → dashboard_refresh*
 
 Configured with failure notifications to alert on pipeline breakage.
 
