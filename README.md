@@ -98,7 +98,7 @@ Published as an interactive Databricks AI/BI Dashboard with 8+
 visualizations covering correlation analysis, regional comparisons, 
 decade-over-decade trends, top-country rankings, and data coverage gaps.
 
-[Dashboard see here](../doc/Dashboard-Global-Development-Insights.pdf)
+[Dashboard see here](https://github.com/snehal29/global-development-lakehouse/blob/main/doc/Dashboard-Global-Development-Insights.pdf)
 
 ## Author
 
