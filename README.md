@@ -100,6 +100,4 @@ decade-over-decade trends, top-country rankings, and data coverage gaps.
 
 ## Author
 
-[Your Name] — transitioning into Data Engineering from an Ab Initio 
-background, building hands-on expertise in Databricks, PySpark, and 
-lakehouse architecture.
+**Snehal Londhe** — Transitioning into Data Engineering from an Ab Initio background, building hands-on expertise in Databricks, PySpark, and lakehouse architecture.
