@@ -98,6 +98,9 @@ Published as an interactive Databricks AI/BI Dashboard with 8+
 visualizations covering correlation analysis, regional comparisons, 
 decade-over-decade trends, top-country rankings, and data coverage gaps.
 
+[Dashboard see here](../doc/Dashboard-Global Development Insights.pdf).
+ [Images Directory](../images/).
+
 ## Author
 
 **Snehal Londhe** — Transitioning into Data Engineering from an Ab Initio background, building hands-on expertise in Databricks, PySpark, and lakehouse architecture.
