@@ -6,17 +6,13 @@ growth across 217 countries (1960–2025), using World Bank Open Data.
 
 ## Problem Statement
 
-World Bank publishes GDP, population, and education indicators as 
-separate, messy, wide-format CSV files that aren't directly comparable or 
-joinable. This project transforms them into a unified, analysis-ready 
-dataset to answer: **does government investment in education correlate 
-with GDP growth, and how does population growth interact with that 
-relationship?**
+World Bank publishes GDP, population, and education indicators as separate, messy, wide-format CSV files that aren't directly comparable or 
+joinable. This project transforms them into a unified, analysis-ready dataset to answer: 
+**does government investment in education correlate with GDP growth, and how does population growth interact with that relationship?**
 
 ## Architecture
 
-Raw CSV → **Bronze** (raw ingestion) → **Silver** (cleaned, unpivoted, 
-validated) → **Gold** (joined, business-ready) → **Dashboard**
+Raw CSV → **Bronze** (raw ingestion) → **Silver** (cleaned, unpivoted, validated) → **Gold** (joined, business-ready) → **Dashboard**
 
 Built using the **medallion architecture** pattern on Databricks Unity 
 Catalog, orchestrated via Databricks Workflows.
@@ -26,18 +22,17 @@ Catalog, orchestrated via Databricks Workflows.
 
 ## Tech Stack
 
-- **Platform:** Databricks (Unity Catalog, Serverless Compute)
+- **Platform:** Databricks Free Edition (Unity Catalog, Serverless Compute)
 - **Languages:** PySpark (DataFrame API), SQL, Python
 - **Storage format:** Delta Lake
 - **Orchestration:** Databricks Workflows (Jobs, task dependencies, 
   notifications)
 - **Visualization:** Databricks AI/BI Dashboards
-- **Data source:** World Bank Open Data (GDP growth, population, 
-  education expenditure indicators)
+- **Data source:** World Bank Open Data (GDP growth, population, education expenditure indicators) 
 
 ## Project Structure
 notebooks/
-     01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling
+     01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling \n
      02_silver_transformation.ipynb #Unpivoting, cleaning, null-handling, outlier flagging
      03_gold_aggregation.ipynb #Joins, derived metrics, window functions
      04_dashboard_queries.ipynb #Analytical SQL queries powering the dashboard
