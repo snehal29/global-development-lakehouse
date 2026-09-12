@@ -30,10 +30,10 @@ Built using the **medallion architecture** pattern on Databricks Unity Catalog, 
 
 ## Project Structure
 **Notebooks**  
-     01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling  
-     02_silver_transformation.ipynb #Unpivoting, cleaning, null-handling, outlier flagging  
-     03_gold_aggregation.ipynb #Joins, derived metrics, window functions  
-     04_dashboard_queries.ipynb #Analytical SQL queries powering the dashboard
+     01_bronze_ingestion.ipynb *(Raw CSV ingestion, explicit schema handling)*  
+     02_silver_transformation.ipynb *(Unpivoting, cleaning, null-handling, outlier flagging)*  
+     03_gold_aggregation.ipynb *(Joins, derived metrics, window functions)*  
+     04_dashboard_queries.ipynb *(Analytical SQL queries powering the dashboard)*
 
 
 ## Key Engineering Decisions
