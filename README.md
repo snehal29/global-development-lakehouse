@@ -32,7 +32,7 @@ Catalog, orchestrated via Databricks Workflows.
 
 ## Project Structure
 notebooks/
-     01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling \n
+     01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling\ 
      02_silver_transformation.ipynb #Unpivoting, cleaning, null-handling, outlier flagging
      03_gold_aggregation.ipynb #Joins, derived metrics, window functions
      04_dashboard_queries.ipynb #Analytical SQL queries powering the dashboard
