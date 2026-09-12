@@ -31,7 +31,7 @@ Catalog, orchestrated via Databricks Workflows.
 - **Data source:** World Bank Open Data (GDP growth, population, education expenditure indicators) 
 
 ## Project Structure
-notebooks/
+notebooks  
      01_bronze_ingestion.ipynb #Raw CSV ingestion, explicit schema handling  
      02_silver_transformation.ipynb #Unpivoting, cleaning, null-handling, outlier flagging  
      03_gold_aggregation.ipynb #Joins, derived metrics, window functions  
